@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa; /* Utilisation d'une teinte plus claire pour le fond */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Légère augmentation de la taille de la police */
+    color: #28a745; /* Changement de la couleur en vert */
+    text-align: center;
+    margin-top: 40px; /* Augmentation de la marge supérieure pour un espacement plus agréable */
+  }
+  
+  h2 {
+    font-size: 2em; /* Légère augmentation de la taille de la police */
+    color: #28a745; /* Changement de la couleur en vert */
+    text-align: center;
+    margin-top: 30px; /* Augmentation de la marge supérieure pour un espacement plus agréable */
+  }
+  
+  p {
+    font-size: 1.1em; /* Légère augmentation de la taille de la police */
+    line-height: 1.6em; /* Augmentation de l'espacement des lignes pour une meilleure lisibilité */
+    margin: 20px auto; /* Centrage horizontal des paragraphes et espacement inférieur automatique */
+    max-width: 600px; /* Limitation de la largeur du paragraphe pour une lecture plus confortable */
+  }
+  
+  input[type="file"],
+  input[type="text"] {
+    margin: 10px auto; /* Centrage horizontal des champs de saisie et espacement automatique */
+    padding: 12px; /* Augmentation de l'espacement interne */
+    font-size: 1.1em;
+    border: 2px solid #28a745; /* Bordure verte pour une meilleure visibilité */
+    border-radius: 8px; /* Arrondi des coins pour une apparence plus douce */
+    display: block; /* Changement de la propriété d'affichage pour une disposition verticale */
+    width: 80%; /* Utilisation de pourcentage pour une meilleure adaptation à différentes tailles d'écran */
+    max-width: 400px; /* Limitation de la largeur maximale pour une meilleure lisibilité */
+  }
+  
+  button {
+    margin: 20px auto; /* Centrage horizontal du bouton et espacement automatique */
+    padding: 12px 20px; /* Augmentation de l'espacement interne */
+    font-size: 1.2em; /* Légère augmentation de la taille de la police */
+    background-color: #28a745; /* Changement de la couleur en vert */
+    color: #fff; /* Texte en blanc pour un meilleur contraste */
+    border: none; /* Suppression de la bordure pour un aspect plus épuré */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition fluide lors du survol */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Changement de couleur au survol */
+  }
+  .button-container {
+    text-align: center; /* Centrage horizontal du contenu */
+  }
